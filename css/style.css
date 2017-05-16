@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway')
+
+.container{
+  padding-right: 0px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.media img{
+    display: block;
+    max-width: 25%;
+    height: auto;
+    float: left;
+}
+.navbar-inverse .navbar-nav > .active > a{
+    background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand{
+color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+body{
+-webkit-font-smoothing: antialised;
+-webkit-overflow-scrolling: touch;
+    background-image:url(http://vignette3.wikia.nocookie.net/fantendo/images/d/df/Index_background.png/revision/latest?cb=20140714202012);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+}
+.movie p span {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.movie p {
+    padding-top: 80px;
+    font-size: 38px;
+    color: #1f458a;
+}
+
+p{
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.centered{
+    text-align: center;
+}
+
+a{
+    color: #f85c37;
+}
+
+a:hover, a:focus{
+    color: #7b7b7b;
+    text-decoration: none;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.blog_item img{
+    max-width: 100%;
+}
+
+.aboutme{
+    background-color: white;
+}
+
+#blog_text{
+    padding-right: 60px;
+}
+
+.panel {
+    margin-bottom: 5px;
+}
+.well {
+    margin-bottom: 5px;
+}
+.foter{
+    background-color: #2d2d2d;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+}
+.foter i{
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.foter i:hover{
+    color: #ff7878;
+}
+
+.media p{
+    text-align: right;
+}
+
+.movie p{
+    line-height: 40px;
+}
+
+#movie .row{
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 768px)
+{
+  .navbar{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    }  
+    .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    #blog_text{
+    padding-right: 10px;
+    }
+    #movie .row{
+    margin-right: -15px;
+    }
+}
